@@ -1,4 +1,4 @@
-# Redisse
+# Redisse modifi
 
 Redisse is a Redis-backed Ruby library for creating [Server-Sent
 Events](http://www.w3.org/TR/eventsource/), publishing them from your
@@ -12,6 +12,7 @@ application, and serving them to your clients.
 ## Features
 
 * Pub/Sub split into **channels** for privacy & access rights handling.
+
 
 * **SSE history** via the `Last-Event-Id` header and the `lastEventId` query
   parameter, with a limit of 100 events per channel.
